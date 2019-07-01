@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Vogue';
+    src: url('Vogue-Regular.eot');
+    src: url('Vogue-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Vogue-Regular.woff2') format('woff2'),
+        url('Vogue-Regular.woff') format('woff'),
+        url('Vogue-Regular.ttf') format('truetype'),
+        url('Vogue-Regular.svg#Vogue-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
