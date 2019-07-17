@@ -34,19 +34,16 @@ html{
 }
 
 #work{
-  margin-top: 10%;
   text-align: center;
   width: 100%;
 }
 
 #contact{
-  margin-top: 10%;
   text-align: center;
   width: 100%;
 }
 
 #socialmedia{
-  margin-top: 10%;
   text-align: center;
   width: 100%;
 }
@@ -60,7 +57,7 @@ html{
 }
 
 .logo {
-  max-height: 60px;
+  max-height: 40px;
   min-height: 20px;
   padding: 0px 8px;
 }
@@ -119,7 +116,7 @@ html{
   font-weight: 700; 
   line-height: 26.4px;
   color: #c0b283;
-  padding-top: 8%;
+  padding-top: 100px;
   text-decoration: underline;
   margin-bottom: 100px;
 }
@@ -190,7 +187,6 @@ html{
 #footer{
   margin-top: 40px;
   height: 100px;
-  background-color: #ddd6bf;
 }
 
 @keyframes App-logo-spin {

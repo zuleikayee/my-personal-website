@@ -23,11 +23,11 @@ function App() {
               className="d-inline-block align-top logo"
               alt="logo"
             />
-            <img
+            {/* <img
               src={logo2}
               className="d-inline-block align-top logo"
               alt="logo"
-            />
+            /> */}
           </Navbar.Brand>
           <br/>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -144,10 +144,14 @@ function App() {
               <h3 className="contact-details-header">E-mail</h3>
               <p className="contact-details-text">zuleikayee@gmail.com</p>
               <p className="contact-details-text">zuleikayee@outlook.com</p>
+            </div>
+            <div className="contact-details">
+              <h3 className="contact-details-header">Skype</h3>
+              <a className="contact-details-text">zuleikayee_1</a>
+            </div>
           </div>
-
-          </div><div id="socialmedia">
-            <h3 className="contact-header">social media</h3>
+          <div id="socialmedia">
+            <h3 className="contact-header">social</h3>
             <div className="contact-details">
               <h3 className="contact-details-header">Twitter</h3>
               <a className="contact-details-text">zuleikayeee</a>
@@ -159,10 +163,6 @@ function App() {
             <div className="contact-details">
               <h3 className="contact-details-header">Facebook</h3>
               <a className="contact-details-text">Zuleika Yee / zuleikayeee</a>
-            </div>
-            <div className="contact-details">
-              <h3 className="contact-details-header">Skype</h3>
-              <a className="contact-details-text">zuleikayee_1</a>
             </div>
           </div>
         </div>
