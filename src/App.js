@@ -295,9 +295,9 @@ function App() {
                 <Col sm={8} className="work-details-col">
                   <h3 className="work-details-header">Movies and Television</h3>
                   <p className="work-details-text">
-                    I haven't been a movie/tv enthusiast until I was in 3rd year college. 
-                    My college friends suggested that I should watch the FRIENDS sitcom.
-                    I enjoyed every bit of the series, thus I watched more comedy and mystery series in Netflix.
+                    I haven't been a movie/tv enthusiast until my 3rd year in college. 
+                    My college friends recommended the FRIENDS sitcom.
+                    I enjoyed every bit of the series, thus I watched more series in Netflix, specifically comedy and mystery.
                     Some of my favorite tv series other than FRIENDS are Brooklyn Nine-nine, How to Get Away with Murder, Lucifer, Black Mirror, and You.
                     I also started watching the Star Wars films during the summer of 2018 because I had nothing to do.
                     Since then, I have been a fan. 
