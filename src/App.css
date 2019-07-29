@@ -103,7 +103,7 @@ html{
 }
 
 .intro-profpic {
-  height: 100%;
+  height: auto;
   width: auto;
 }
 
@@ -191,6 +191,9 @@ html{
   height: 100px;
 }
 
+.contact-details-view{
+  color: rgba(31, 67, 146, 0.815);
+}
 
 @keyframes App-logo-spin {
   from {

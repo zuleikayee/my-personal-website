@@ -1,11 +1,9 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import { Navbar, Nav, Container, Row, Col, Button, Card, Form, FormControl, Carousel } from 'react-bootstrap';
+import { Navbar, Nav, Container, Row, Col, Button, Carousel } from 'react-bootstrap';
 import profpic from './img/profpic2.jpg';
 import logo from './img/icon.png';
-import logo2 from './img/ZULEIKA.png';
-import dummy from './img/dummy.jpg';
 import linkedin from './img/linkedin.png';
 import github from './img/github.png';
 
@@ -38,7 +36,7 @@ function App() {
     <html>
     <div className="App">
       <header>        
-        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+        
         <Navbar className="navbar-bg" fixed="top" expand="lg">
           <Navbar.Brand href="#home">
             <img
@@ -91,7 +89,6 @@ function App() {
                       <Button variant="outline-light" className="linkedin-button"><a className="linkedin-link" href='https://www.linkedin.com/in/zuleika-yee-7841b5180/'><img src={linkedin} className="linkedin-logo"/></a></Button>
                       <Button variant="outline-light" className="github-button"><a className="github-link" href='https://www.github.com/zuleikayee'><img src={github} className="github-logo"/></a></Button>
                     </div>
-                  
                 </Col>
                 <Col className="picture">
                   <img src={profpic} className="intro-profpic"></img>
@@ -133,9 +130,8 @@ function App() {
                   <p className="work-details-text">
                     I played football since the 5th grade.
                     Ever since, I have developed a passion for the sport that not many would understand.
-                    When I was a student-athlete, I could wake up at 4:00am for training despite having classes for the whole day afterwards, while still being able to maintain good grades.
+                    Back when I was a student-athlete, I could wake up at 4:00am for training despite having classes for the whole day afterwards, while still being able to maintain good grades.
                     Football for me was a coping mechanism for problems I had in school and in general. 
-                    Others might see it as something that eats up study and social time but the truth is, it made my life more joyful.
                     Now that I'm working the graveyard shift, I still see to it that I can play at least once a week.
                   </p>
                 </Col>
@@ -169,7 +165,7 @@ function App() {
                 <Col sm={8} className="work-details-col">
                   <h3 className="work-details-header">Food Trips</h3>
                   <p className="work-details-text">
-                    I grew up with a family that recognizes the importance of food.
+                    I grew up with a family that recognizes the importance of good food.
                     My parents would always treat us wherever we wanted to eat and serve us whatever food we craved for. 
                     Because of this, I grew up to be a foodie or a foodtrip enthusiast.
                     For me, tasting different kinds of food from different origins is an adventure.
@@ -206,11 +202,11 @@ function App() {
                 <Col sm={8} className="work-details-col">
                   <h3 className="work-details-header">Cooking</h3>
                   <p className="work-details-text">
-                    Back in the days, my sisters and I were fond of binge watching the Barefoot Contessa cooking series in the Food Network Channel. 
-                    I personally find it fun to create something great from tiny simple things and being creative about it. 
+                    Back in the day, my sisters and I were fond of binge watching the Barefoot Contessa cooking series in the Food Network Channel. 
+                    I personally find it fun to create something great from tiny simple things and be creative about it. 
                     I started off with cooking hotdogs, spam, instant noodles, and sunny side up eggs. 
                     After mastering sunny side ups, I became more confident in the kitchen and tried simple dishes like fried rice, sausage broccoli, and no-bake desserts. 
-                    I dream of having my own spacious kitchen with complete equipments to harness my cooking skills more.
+                    I dream of having my own spacious kitchen with complete equipments to harness my cooking skills.
                   </p>
                 </Col>
               </Row>
@@ -243,9 +239,9 @@ function App() {
                 <Col sm={8} className="work-details-col">
                   <h3 className="work-details-header">Dogs</h3>
                   <p className="work-details-text">
-                    I was diagnosed with Asthma when I was younger, therefore being allergic to fur, but that did not hinder my love for dogs.
-                    In fact, we have 7 dogs: Mhikko ✝, Mhikkai, Clark ✝, Zukko, Pukko, Kitkat and Lokki. 
-                    They make me happy every single day.  
+                    We have 7 dogs: Mhikko ✝, Mhikkai, Clark ✝, Zukko, Pukko, Kitkat and Lokki. 
+                    I play with them occasionally. 
+                    Just looking at them makes me happy every single day.  
                   </p>
                 </Col>
               </Row>
@@ -372,14 +368,20 @@ function App() {
             <div className="contact-details">
               <h3 className="contact-details-header">Twitter</h3>
               <a className="contact-details-text">zuleikayeee</a>
+              <br/>
+              <a className="contact-details-view" href="https://twitter.com/zuleikayeee">View Profile</a>
             </div>
             <div className="contact-details">
               <h3 className="contact-details-header">Instagram</h3>
               <a className="contact-details-text">zuleikayee</a>
+              <br/>
+              <a className="contact-details-view" href="https://www.instagram.com/zuleikayee/">View Profile</a>
             </div>
             <div className="contact-details">
               <h3 className="contact-details-header">Facebook</h3>
               <a className="contact-details-text">Zuleika Yee / zuleikayeee</a>
+              <br/>
+              <a className="contact-details-view" href="https://www.facebook.com/zuleikayeee">View Profile</a>
             </div>
           </div>
         </div>
