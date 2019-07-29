@@ -351,7 +351,6 @@ function App() {
             <div className="contact-details">
               <h3 className="contact-details-header">Mobile</h3>
               <p className="contact-details-text">09477564237</p>
-              <p className="contact-details-text">09054791547</p>
             </div>
             <div className="contact-details">
               <h3 className="contact-details-header">E-mail</h3>
