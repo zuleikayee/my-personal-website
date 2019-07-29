@@ -1,13 +1,27 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import { Navbar, Nav, Container, Row, Col, Button, Card, Form, FormControl } from 'react-bootstrap';
+import { Navbar, Nav, Container, Row, Col, Button, Card, Form, FormControl, Carousel } from 'react-bootstrap';
 import profpic from './img/profpic2.jpg';
 import logo from './img/icon.png';
 import logo2 from './img/ZULEIKA.png';
 import dummy from './img/dummy.jpg';
 import linkedin from './img/linkedin.png';
 import github from './img/github.png';
+
+// interests jpg files
+import football1 from './img/football1.jpg';
+import football2 from './img/football2.jpg';
+import football3 from './img/football3.jpg';
+import foodie1 from './img/foodie1.jpg';
+import foodie2 from './img/foodie2.jpg';
+import foodie3 from './img/foodie3.jpg';
+import cooking1 from './img/cooking1.jpg';
+import cooking2 from './img/cooking2.jpg';
+import cooking3 from './img/cooking3.jpg';
+import dogs1 from './img/dogs1.jpg';
+import dogs2 from './img/dogs2.jpg';
+import dogs3 from './img/dogs3.jpg';
 
 function App() {
 
@@ -83,7 +97,29 @@ function App() {
             <Container>
               <Row className="work-row work-webdev">
                 <Col sm={4} className="work-img-col">
-                  <img src={dummy} className="work-img"></img>
+                  <Carousel className="work-carousel">
+                    <Carousel.Item>
+                      <img
+                        className="d-block work-img"
+                        src={football1}
+                        alt="First slide"
+                      />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img
+                        className="d-block work-img"
+                        src={football2}
+                        alt="Second slide"
+                      />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img
+                        className="d-block work-img"
+                        src={football3}
+                        alt="Third slide"
+                      />
+                    </Carousel.Item>
+                  </Carousel>
                 </Col>
                 <Col sm={8} className="work-details-col">
                   <h3 className="work-details-header">Football/Soccer</h3>
@@ -93,7 +129,29 @@ function App() {
               </Row>
               <Row className="work-row work-androiddev">
                 <Col sm={4} className="work-img-col">
-                  <img src={dummy} className="work-img"></img>
+                  <Carousel>
+                    <Carousel.Item>
+                      <img
+                        className="d-block work-img"
+                        src={foodie1}
+                        alt="First slide"
+                      />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img
+                        className="d-block work-img"
+                        src={foodie2}
+                        alt="Second slide"
+                      />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img
+                        className="d-block work-img"
+                        src={foodie3}
+                        alt="Third slide"
+                      />
+                    </Carousel.Item>
+                  </Carousel>
                 </Col>
                 <Col sm={8} className="work-details-col">
                   <h3 className="work-details-header">Food Trips</h3>
@@ -103,7 +161,29 @@ function App() {
               </Row>
               <Row className="work-row work-windowsdev">
                 <Col sm={4} className="work-img-col">
-                  <img src={dummy} className="work-img"></img>
+                  <Carousel>
+                    <Carousel.Item>
+                      <img
+                        className="d-block work-img"
+                        src={cooking1}
+                        alt="First slide"
+                      />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img
+                        className="d-block work-img"
+                        src={cooking2}
+                        alt="Second slide"
+                      />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img
+                        className="d-block work-img"
+                        src={cooking3}
+                        alt="Third slide"
+                      />
+                    </Carousel.Item>
+                  </Carousel>
                 </Col>
                 <Col sm={8} className="work-details-col">
                   <h3 className="work-details-header">Cooking</h3>
@@ -113,7 +193,29 @@ function App() {
               </Row>
               <Row className="work-row work-crossplatformmobiledev">
                 <Col sm={4} className="work-img-col">
-                  <img src={dummy} className="work-img"></img>
+                  <Carousel>
+                    <Carousel.Item>
+                      <img
+                        className="d-block work-img"
+                        src={dogs1}
+                        alt="First slide"
+                      />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img
+                        className="d-block work-img"
+                        src={dogs2}
+                        alt="Second slide"
+                      />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img
+                        className="d-block work-img"
+                        src={dogs3}
+                        alt="Third slide"
+                      />
+                    </Carousel.Item>
+                  </Carousel>
                 </Col>
                 <Col sm={8} className="work-details-col">
                   <h3 className="work-details-header">Dogs</h3>
@@ -123,7 +225,29 @@ function App() {
               </Row>
               <Row className="work-row work-iosdev">
                 <Col sm={4} className="work-img-col">
-                  <img src={dummy} className="work-img"></img>
+                  <Carousel>
+                    <Carousel.Item>
+                      <img
+                        className="d-block work-img"
+                        src={dummy}
+                        alt="First slide"
+                      />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img
+                        className="d-block work-img"
+                        src={dummy}
+                        alt="Second slide"
+                      />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img
+                        className="d-block work-img"
+                        src={dummy}
+                        alt="Third slide"
+                      />
+                    </Carousel.Item>
+                  </Carousel> 
                 </Col>
                 <Col sm={8} className="work-details-col">
                   <h3 className="work-details-header">Math and Programming</h3>
