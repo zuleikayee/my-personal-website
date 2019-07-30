@@ -80,7 +80,7 @@ function App() {
                   <p className="intro-details">
                     I'm a Front End Developer at Awesome OS. 
                     I'm skilled at software development, mathematics and time management.
-                    I sell coffee jelly as a sideline and play football/soccer to cope with adulting.
+                    I play football/soccer to cope with adulting.
                     As of the moment, my ultimate goals are to gradually improve my technical skills, build my own business, and to continue playing my sport. 
                   </p>
 
